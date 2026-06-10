@@ -331,6 +331,7 @@ section{
     .logo{
         font-size: 2rem;
         line-height: 0.9;
+        width: 100px;
     }
     .gradient-btn{
         display: block;
