@@ -784,6 +784,7 @@ h5{
     justify-items: center;
     justify-self: center;
     margin-top: 30px;
+    justify-content: center
 }
 .card3 h12{
     display: grid;
