@@ -246,6 +246,8 @@ section{
 .contacts h2{
     margin-bottom: 3rem;
     color: var(--text-color);
+    padding: 10px;
+    text-align: center;
 }
 .contacts form{
     display: flex;
@@ -341,7 +343,7 @@ section{
         text-align: center;
     }
     .home-img{
-        width: 80vw;
+        width: 56vw;
         padding-right: 20%;
         padding-top: 5rem;
         margin-left: 40%;
@@ -388,6 +390,16 @@ section{
     .collage{
         min-width: 420px;
         min-height: auto;
+    }
+    .small-text h13{
+        font-size: 4rem;
+        padding: 10px;
+    }
+    .services h2{
+        text-align: center;
+        padding: 10px;
+        font-size: 4rem;
+        margin-bottom: 30px;
     }
 }
 
@@ -763,7 +775,7 @@ h5{
     gap: 1em;
     overflow-x: auto;
     transition: 0.4s ease-in-out;
-    margin-top: -50px;
+    margin-top: 0px;
 }
 .carousel-container::-webkit-scrollbar{
     display: none;
@@ -837,7 +849,7 @@ h5{
     display: flex;
     height: auto;
     margin-top: -10%;
-    margin-bottom: -30%;
+    margin-bottom: -10%;
     font-size: 7rem;
     font-weight: 600;
     justify-content: center;
@@ -848,6 +860,7 @@ h5{
 .small-text h13{
     margin-top: 0;
     margin-bottom: 0;
+    padding: 10px;
 }
 
 .carousel-container2{
