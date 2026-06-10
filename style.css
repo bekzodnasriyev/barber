@@ -325,6 +325,7 @@ section{
     }
     .logo{
         font-size: 2rem;
+        line-height: 1;
     }
     .gradient-btn{
         display: block;
@@ -340,7 +341,7 @@ section{
         text-align: center;
     }
     .home-img{
-        width: 56vw;
+        width: 80vw;
         padding-right: 20%;
         padding-top: 5rem;
         margin-left: 40%;
@@ -762,7 +763,7 @@ h5{
     gap: 1em;
     overflow-x: auto;
     transition: 0.4s ease-in-out;
-    margin-top: -100px;
+    margin-top: -50px;
 }
 .carousel-container::-webkit-scrollbar{
     display: none;
