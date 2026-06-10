@@ -605,7 +605,7 @@ h5{
     position: relative;
     color: #fff;
     z-index: 1;
-    margin-bottom: 0;
+    margin-bottom: -50px;
 }
 .glitch::before, .glitch::after{
     display: block;
