@@ -782,7 +782,7 @@ h5{
     height: 100px;
     object-fit: cover;
     border-radius: 50px;
-    display: block;
+    display: flex;
     justify-items: center;
     justify-self: center;
     margin-top: 30px;
