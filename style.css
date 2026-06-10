@@ -404,8 +404,8 @@ section{
 }
 .swiper{
     width: 100%;
-    padding: 250px 0 250px 0;
-    height: 152vh;
+    padding: 250px 0 100px 0;
+    height: 250vh;
 }
 .swiper-slide{
     width: 10rem;
@@ -758,7 +758,7 @@ h5{
     gap: 1em;
     overflow-x: auto;
     transition: 0.4s ease-in-out;
-    margin-top: -80px;
+    margin-top: -100px;
 }
 .carousel-container::-webkit-scrollbar{
     display: none;
@@ -786,7 +786,7 @@ h5{
     justify-items: center;
     justify-self: center;
     margin-top: 30px;
-    margin-left: 20%;
+    margin-left: 50px;
     justify-content: center;
 }
 .card3 h12{
