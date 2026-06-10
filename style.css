@@ -423,7 +423,11 @@ section{
         margin-right: 10px;
         text-align: center;
     }
-    .projects h2
+    .projects h2{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px
+    }
 }
 
 .section{
