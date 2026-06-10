@@ -666,6 +666,7 @@ h5{
     justify-items: center;
     min-height: 20vh;
     gap: 25em;
+    margin-top: -50px;
 }
 .container2 .card2{
     position: relative;
