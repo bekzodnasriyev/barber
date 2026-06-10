@@ -237,7 +237,10 @@ section{
 .projects{
     background-color: var(--bg-color);
     margin-top: -100px;
-    margin-bottom: -500px;
+    margin-bottom: -200px;
+}
+.projects h2{
+    text-align: center;
 }
 
 .contacts{
@@ -327,7 +330,7 @@ section{
     }
     .logo{
         font-size: 2rem;
-        line-height: 1;
+        line-height: 0.9;
     }
     .gradient-btn{
         display: block;
@@ -342,13 +345,15 @@ section{
         align-items: center;
         text-align: center;
         padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .home-img{
         width: 56vw;
         padding-right: 20%;
         padding-top: 5rem;
         margin-left: 30%;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     .home h1{
         text-align: center;
@@ -364,6 +369,7 @@ section{
     .about{
         flex-direction: column-reverse;
         text-align: center;
+        margin-bottom: 0;
     }
     .about h2{
         text-align: center;
@@ -377,6 +383,9 @@ section{
     }
     .contacts h2{
         font-size: 5rem;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .hero2{
         flex-direction: column-reverse;
@@ -398,6 +407,8 @@ section{
     .small-text h13{
         font-size: 4rem;
         padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .services h2{
         text-align: center;
@@ -405,6 +416,10 @@ section{
         font-size: 4rem;
         margin-bottom: 30px;
     }
+    .projects{
+        font-size: 4rem;
+        margin-left: 10px;
+        margin-right: 10px;
 }
 
 .section{
@@ -446,7 +461,7 @@ section{
 }
 .swiper-slide .slide-content img{width: 100%; border-radius: 10px;}
 .swiper-button-prev{
-    background: white;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     top: 47%;
     right: -30px;
@@ -458,7 +473,7 @@ section{
 .swiper-button-prev::after{content: "";}
 .swiper-button-prev .bx{font-size: 25px;}
 .swiper-button-next{
-    background: white;
+    background: rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     top: 47%;
     right: -30px;
