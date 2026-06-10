@@ -303,7 +303,134 @@ section{
     font-size: 16px;
 }
 
-@media only screen (max-width:1285px){
+@media (max-width:1285px){
+    #menu-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3rem;
+        background: rgba(0, 0, 0, 0.8);
+        border-bottom-right-radius: 2rem;
+        border-right: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+    }
+    .navbar a{
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: var(--text-color);
+    }
+    .navbar.active{
+        display: block;
+    }
+    .logo{
+        font-size: 2rem;
+        line-height: 0.9;
+        width: 100px;
+    }
+    .gradient-btn{
+        display: block;
+    }
+    .home{
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+        gap: 5rem;
+        padding: 20px;
+    }
+    .home-content{
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .home-img{
+        width: 56vw;
+        padding-right: 20%;
+        padding-top: 5rem;
+        margin-left: 30%;
+        margin-top: 30px;
+    }
+    .home h1{
+        text-align: center;
+        margin: 2rem 0;
+        font-size: 5rem;
+        padding: 10px;
+    }
+    .home h3{
+        text-align: center;
+        font-size: 2rem;
+        padding: 10px;
+    }
+    .about{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .about h2{
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .about-img{
+        width: 80vw;
+    }
+    .contacts form{
+        flex-direction: column;
+    }
+    .contacts h2{
+        font-size: 5rem;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .hero2{
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+        gap: 5rem;
+        align-items: center;
+        text-align: center;
+    }
+    .hero2 img{
+        width: 56vw;
+        padding-right: 0%;
+        padding-top: 0rem;
+        margin-top: 100px;
+    }
+    .collage{
+        min-width: 420px;
+        min-height: auto;
+    }
+    .small-text h13{
+        font-size: 4rem;
+        padding: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .services h2{
+        text-align: center;
+        padding: 10px;
+        font-size: 4rem;
+        margin-bottom: 30px;
+    }
+    .projects{
+        font-size: 4rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    .projects h2{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px
+    }
+}
+
+@media(min-width:400px){
     #menu-icon{
         display: block;
     }
