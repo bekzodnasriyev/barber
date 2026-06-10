@@ -484,7 +484,7 @@ section{
 }
 .swiper-button-next::after{content: "";}
 .swiper-button-next .bx{font-size: 25px;}
-@media (min-width:760px){
+@media (min-width:420px){
     .swiper-button-prev,
     .swiper-button-next{
         display: flex;
